@@ -1,4 +1,5 @@
 @echo off
+call SwitchJava.bat
 setlocal enableextensions
 pushd %~dp0
 
