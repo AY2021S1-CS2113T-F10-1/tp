@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Duke {
     /**
      * Main entry-point for the java.duke.Duke application.
+     * ANGEL'S EDIT
      */
     public static void main(String[] args) {
         String logo = " ____        _        \n"
@@ -17,5 +18,7 @@ public class Duke {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Hello " + in.nextLine());
+        System.out.println("What is your name?");
+        System.out.println("hELLO");
     }
 }
