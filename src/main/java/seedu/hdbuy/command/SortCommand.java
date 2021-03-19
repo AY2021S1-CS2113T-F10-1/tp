@@ -27,7 +27,7 @@ public class SortCommand extends Command {
             }
             TextUi.showParameters(inputs);
         } catch (InvalidSortException e) {
-            TextUi.showInvalidSort(criteria, e);
+            //TextUi.showInvalidSort(criteria, e);
         }
     }
 }

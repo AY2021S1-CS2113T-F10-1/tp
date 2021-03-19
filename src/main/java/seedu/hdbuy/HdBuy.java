@@ -16,6 +16,7 @@ public class HdBuy {
      */
 
     public static void main(String[] args) {
+        //assert false : "dummy asssertion set to fail";
         TextUi.showWelcome();
         receiveCommand(false);
         /*
