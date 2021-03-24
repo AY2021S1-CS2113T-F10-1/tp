@@ -1,6 +1,7 @@
 package seedu.hdbuy.ui;
 
 import seedu.hdbuy.data.QueryKey;
+import seedu.hdbuy.data.exception.EmptyParameterException;
 import seedu.hdbuy.data.exception.InvalidFilterException;
 import seedu.hdbuy.data.exception.InvalidParameterException;
 
@@ -55,5 +56,9 @@ public class TextUi {
 
     public static void showInvalidParameter(InvalidParameterException e) {
         System.out.println(e.getMessage());
+    }
+
+    public static void showEmptyParameter(String key, EmptyParameterException e) {
+        System.out.println("\"" + key + "\"" + e.getMessage());
     }
 }
