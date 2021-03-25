@@ -5,7 +5,7 @@ import seedu.hdbuy.data.exception.InvalidSortException;
 import seedu.hdbuy.ui.TextUi;
 import seedu.hdbuy.api.UnitsGenerator;
 
-import java.util.*;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
