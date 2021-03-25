@@ -1,6 +1,7 @@
 package seedu.hdbuy.command;
 
 import seedu.hdbuy.data.QueryKey;
+import seedu.hdbuy.data.Unit;
 import seedu.hdbuy.data.exception.InvalidFilterException;
 import seedu.hdbuy.ui.TextUi;
 

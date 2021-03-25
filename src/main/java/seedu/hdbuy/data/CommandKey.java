@@ -12,6 +12,12 @@ public class CommandKey {
         this.command = command;
     }
 
+    public CommandKey(String criteria, String command) {
+        this.criteria = criteria;
+        this.command = command;
+        value = null;
+    }
+    
     public CommandKey(String command) {
         this.command = command;
         this.value = "";

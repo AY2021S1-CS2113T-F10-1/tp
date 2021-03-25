@@ -4,6 +4,7 @@ import seedu.hdbuy.data.QueryKey;
 import seedu.hdbuy.data.exception.EmptyParameterException;
 import seedu.hdbuy.data.exception.InvalidFilterException;
 import seedu.hdbuy.data.exception.InvalidParameterException;
+import seedu.hdbuy.data.exception.InvalidSortException;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -60,5 +61,9 @@ public class TextUi {
 
     public static void showEmptyParameter(String key, EmptyParameterException e) {
         System.out.println("\"" + key + "\"" + e.getMessage());
+    }
+
+    public static void showInvalidSort(String criteria, InvalidSortException e) {
+        System.out.println(criteria + e.getMessage());
     }
 }
