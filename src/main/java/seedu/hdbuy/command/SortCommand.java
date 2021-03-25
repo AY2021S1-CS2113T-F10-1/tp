@@ -21,7 +21,7 @@ public class SortCommand extends Command {
         this.criteria = criteria;
     }
 
-    public static HashMap<QueryKey, String> sortMapByValueDesc(boolean order, HashMap<QueryKey, String> inputs) {
+    public static HashMap<QueryKey, String> sortMapByPrice(boolean order, HashMap<QueryKey, String> inputs) {
         List list = new LinkedList(inputs.entrySet());
         Collections.sort(list, new Comparator() {
             public int compare(Object o1, Object o2) {
@@ -43,10 +43,10 @@ public class SortCommand extends Command {
         try {
             switch (criteria) {
             case "asc":
-                sortMapByValueDesc(true,inputs);
+                sortMapByPrice(true,inputs);
                 break;
             case "desc":
-                sortMapByValueDesc(false,inputs);
+                sortMapByPrice(false,inputs);
                 break;
             default:
                 throw new InvalidSortException();
