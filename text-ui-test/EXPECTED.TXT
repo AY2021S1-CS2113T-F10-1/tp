@@ -9,106 +9,98 @@ Parameters:
 --------------------------------------------------------------------------------
 Parameters:
 {LOCATION=jurong}
-Hash ID: 1929752289 - Address: 410 PANDAN GDNS - Type: 3 ROOM - Lease:  61 years 05 months -  Price: $250000
-Hash ID: -2034463566 - Address: 37 TEBAN GDNS RD - Type: 3 ROOM - Lease:  48 years 09 months -  Price: $250000
-Hash ID: 598480466 - Address: 247 JURONG EAST ST 24 - Type: 3 ROOM - Lease:  65 years 05 months -  Price: $257500
-Hash ID: 1805992042 - Address: 250 JURONG EAST ST 24 - Type: 3 ROOM - Lease:  68 years 05 months -  Price: $260000
-Hash ID: 1779168618 - Address: 231 JURONG EAST ST 21 - Type: 3 ROOM - Lease:  63 years 05 months -  Price: $265000
-Hash ID: 1929752289 - Address: 410 PANDAN GDNS - Type: 3 ROOM - Lease:  61 years 04 months -  Price: $270000
-Hash ID: -1476504691 - Address: 330 JURONG EAST AVE 1 - Type: 3 ROOM - Lease:  65 years 06 months -  Price: $290000
-Hash ID: -1980719667 - Address: 264 JURONG EAST ST 24 - Type: 3 ROOM - Lease:  65 years 03 months -  Price: $290000
-Hash ID: 1636349282 - Address: 411 PANDAN GDNS - Type: 3 ROOM - Lease:  61 years 04 months -  Price: $295000
-Hash ID: -727423571 - Address: 253 JURONG EAST ST 24 - Type: 3 ROOM - Lease:  67 years 05 months -  Price: $300000
-Hash ID: -2061189933 - Address: 207 JURONG EAST ST 21 - Type: 3 ROOM - Lease:  65 years 03 months -  Price: $302000
-Hash ID: -727423571 - Address: 253 JURONG EAST ST 24 - Type: 3 ROOM - Lease:  67 years 05 months -  Price: $308888
-Hash ID: -992421358 - Address: 115 JURONG EAST ST 13 - Type: 3 ROOM - Lease:  63 years 04 months -  Price: $313000
-Hash ID: -1500676945 - Address: 101 JURONG EAST ST 13 - Type: 3 ROOM - Lease:  65 years 02 months -  Price: $330000
-Hash ID: -1698150228 - Address: 211 JURONG EAST ST 21 - Type: 3 ROOM - Lease:  65 years 03 months -  Price: $330000
-Hash ID: -486816938 - Address: 339 JURONG EAST AVE 1 - Type: 3 ROOM - Lease:  65 years 05 months -  Price: $336000
-Hash ID: 1781076746 - Address: 62 TEBAN GDNS RD - Type: 4 ROOM - Lease:  85 years 06 months -  Price: $362000
-Hash ID: -1486799283 - Address: 311 JURONG EAST ST 32 - Type: 4 ROOM - Lease:  66 years 04 months -  Price: $390000
-Hash ID: 1540994255 - Address: 112 JURONG EAST ST 13 - Type: 4 ROOM - Lease:  63 years 05 months -  Price: $395000
-Hash ID: -1654291983 - Address: 283 TOH GUAN RD - Type: 4 ROOM - Lease:  80 years 10 months -  Price: $398000
-Hash ID: -642327412 - Address: 310 JURONG EAST ST 32 - Type: 4 ROOM - Lease:  67 years 01 month -  Price: $420000
-Hash ID: -77992713 - Address: 329 JURONG EAST AVE 1 - Type: 4 ROOM - Lease:  65 years 05 months -  Price: $426000
-Hash ID: 1963696142 - Address: 312 JURONG EAST ST 32 - Type: 4 ROOM - Lease:  66 years 07 months -  Price: $450000
-Hash ID: -471753842 - Address: 22 TEBAN GDNS RD - Type: 4 ROOM - Lease:  95 years 09 months -  Price: $450000
-Hash ID: -1229980747 - Address: 265 TOH GUAN RD - Type: 4 ROOM - Lease:  80 years 09 months -  Price: $470000
-Hash ID: -471753842 - Address: 22 TEBAN GDNS RD - Type: 4 ROOM - Lease:  95 years 08 months -  Price: $475000
-Hash ID: -855330351 - Address: 272 TOH GUAN RD - Type: 4 ROOM - Lease:  81 years 03 months -  Price: $490000
-Hash ID: -2110189768 - Address: 268 TOH GUAN RD - Type: 4 ROOM - Lease:  81 years 01 month -  Price: $507000
-Hash ID: -1824981907 - Address: 288E JURONG EAST ST 21 - Type: 4 ROOM - Lease:  82 years 02 months -  Price: $520000
-Hash ID: -1229980747 - Address: 265 TOH GUAN RD - Type: 4 ROOM - Lease:  80 years 09 months -  Price: $470000
-Hash ID: -1849838988 - Address: 307 JURONG EAST ST 32 - Type: 5 ROOM - Lease:  66 years 10 months -  Price: $450000
-Hash ID: 968295879 - Address: 405 PANDAN GDNS - Type: 5 ROOM - Lease:  61 years 09 months -  Price: $518888
-Hash ID: -1909501170 - Address: 111 JURONG EAST ST 13 - Type: 5 ROOM - Lease:  63 years 08 months -  Price: $525000
-Hash ID: 274752400 - Address: 314 JURONG EAST ST 32 - Type: 5 ROOM - Lease:  66 years 06 months -  Price: $538000
-Hash ID: 1416128913 - Address: 227 JURONG EAST ST 21 - Type: 5 ROOM - Lease:  66 years 05 months -  Price: $625000
-Hash ID: -1265134065 - Address: 45 TEBAN GDNS RD - Type: EXECUTIVE - Lease:  68 years 06 months -  Price: $500000
-Hash ID: 1476232024 - Address: 990A JURONG WEST ST 93 - Type: 2 ROOM - Lease:  90 years 07 months -  Price: $240000
-Hash ID: 631760153 - Address: 990B JURONG WEST ST 93 - Type: 2 ROOM - Lease:  90 years 07 months -  Price: $258000
-Hash ID: 175748306 - Address: 185 BOON LAY AVE - Type: 3 ROOM - Lease:  57 years 09 months -  Price: $240000
-Hash ID: -586466457 - Address: 119 HO CHING RD - Type: 3 ROOM - Lease:  54 years -  Price: $240000
-Hash ID: 1913009676 - Address: 174 BOON LAY DR - Type: 3 ROOM - Lease:  60 years 06 months -  Price: $245000
-Hash ID: 12277696 - Address: 113 TAO CHING RD - Type: 3 ROOM - Lease:  53 years 05 months -  Price: $245000
-Hash ID: 1326203662 - Address: 176 BOON LAY DR - Type: 3 ROOM - Lease:  60 years 06 months -  Price: $251000
-Hash ID: 1548601981 - Address: 120 HO CHING RD - Type: 3 ROOM - Lease:  54 years -  Price: $265000
-Hash ID: -634268287 - Address: 914 JURONG WEST ST 91 - Type: 3 ROOM - Lease:  70 years 06 months -  Price: $268000
-Hash ID: 433568382 - Address: 421 JURONG WEST ST 42 - Type: 3 ROOM - Lease:  67 years 05 months -  Price: $269000
-Hash ID: 691635750 - Address: 908 JURONG WEST ST 91 - Type: 3 ROOM - Lease:  71 years 04 months -  Price: $275000
-Hash ID: -1478740158 - Address: 915 JURONG WEST ST 91 - Type: 3 ROOM - Lease:  70 years 06 months -  Price: $275000
-Hash ID: 1562931043 - Address: 926 JURONG WEST ST 92 - Type: 3 ROOM - Lease:  71 years -  Price: $275000
-Hash ID: -1255811970 - Address: 211 BOON LAY PL - Type: 3 ROOM - Lease:  58 years 10 months -  Price: $279000
-Hash ID: -1478740158 - Address: 915 JURONG WEST ST 91 - Type: 3 ROOM - Lease:  70 years 07 months -  Price: $280000
-Hash ID: 281879621 - Address: 517 JURONG WEST ST 52 - Type: 3 ROOM - Lease:  65 years 06 months -  Price: $290000
-Hash ID: 1080566972 - Address: 530 JURONG WEST ST 52 - Type: 3 ROOM - Lease:  65 years 07 months -  Price: $295000
-Hash ID: 1080566972 - Address: 530 JURONG WEST ST 52 - Type: 3 ROOM - Lease:  65 years 07 months -  Price: $305000
-Hash ID: -562592250 - Address: 518 JURONG WEST ST 52 - Type: 3 ROOM - Lease:  66 years 10 months -  Price: $310000
-Hash ID: 1053743551 - Address: 511 JURONG WEST ST 52 - Type: 3 ROOM - Lease:  66 years 02 months -  Price: $315000
-Hash ID: -1479672062 - Address: 514 JURONG WEST ST 52 - Type: 3 ROOM - Lease:  66 years 04 months -  Price: $320000
-Hash ID: -1888496287 - Address: 524 JURONG WEST ST 52 - Type: 3 ROOM - Lease:  64 years 03 months -  Price: $355000
-Hash ID: -1147360 - Address: 813 JURONG WEST ST 81 - Type: 4 ROOM - Lease:  72 years 02 months -  Price: $310000
-Hash ID: -207419258 - Address: 178 YUNG SHENG RD - Type: 4 ROOM - Lease:  83 years 04 months -  Price: $330000
-Hash ID: 1814051165 - Address: 854 JURONG WEST ST 81 - Type: 4 ROOM - Lease:  78 years 07 months -  Price: $338000
-Hash ID: -17923232 - Address: 276A JURONG WEST ST 25 - Type: 4 ROOM - Lease:  84 years 01 month -  Price: $340000
-Hash ID: -1030146752 - Address: 733 JURONG WEST ST 73 - Type: 4 ROOM - Lease:  77 years 05 months -  Price: $340000
-Hash ID: 1814051165 - Address: 854 JURONG WEST ST 81 - Type: 4 ROOM - Lease:  78 years 08 months -  Price: $342500
-Hash ID: 1503268860 - Address: 730 JURONG WEST ST 72 - Type: 4 ROOM - Lease:  72 years 10 months -  Price: $343000
-Hash ID: 347548773 - Address: 273B JURONG WEST AVE 3 - Type: 4 ROOM - Lease:  83 years 11 months -  Price: $345000
-Hash ID: 1154106817 - Address: 936 JURONG WEST ST 91 - Type: 4 ROOM - Lease:  71 years 03 months -  Price: $345000
-Hash ID: -2072091906 - Address: 844 JURONG WEST ST 81 - Type: 4 ROOM - Lease:  78 years 03 months -  Price: $346500
-Hash ID: 1895564136 - Address: 720 JURONG WEST AVE 5 - Type: 4 ROOM - Lease:  71 years 11 months -  Price: $348000
-Hash ID: 685620411 - Address: 750 JURONG WEST ST 73 - Type: 4 ROOM - Lease:  76 years -  Price: $350000
-Hash ID: -1155012094 - Address: 848 JURONG WEST ST 81 - Type: 4 ROOM - Lease:  78 years 02 months -  Price: $350000
-Hash ID: -1016269091 - Address: 943 JURONG WEST ST 91 - Type: 4 ROOM - Lease:  71 years 05 months -  Price: $350000
-Hash ID: 1996202001 - Address: 153 YUNG HO RD - Type: 4 ROOM - Lease:  72 years 07 months -  Price: $352000
-Hash ID: -818795810 - Address: 833 JURONG WEST ST 81 - Type: 4 ROOM - Lease:  75 years 05 months -  Price: $355000
-Hash ID: 1814051165 - Address: 854 JURONG WEST ST 81 - Type: 4 ROOM - Lease:  78 years 08 months -  Price: $355000
-Hash ID: 744350657 - Address: 545 JURONG WEST ST 42 - Type: 4 ROOM - Lease:  67 years 02 months -  Price: $360000
-Hash ID: 1108322297 - Address: 950 JURONG WEST ST 91 - Type: 4 ROOM - Lease:  71 years 04 months -  Price: $360000
-Hash ID: -521891165 - Address: 747 JURONG WEST ST 73 - Type: 4 ROOM - Lease:  76 years -  Price: $362000
-Hash ID: 1300132551 - Address: 179 YUNG SHENG RD - Type: 4 ROOM - Lease:  83 years 03 months -  Price: $365000
-Hash ID: -86243518 - Address: 756 JURONG WEST ST 74 - Type: 4 ROOM - Lease:  78 years 08 months -  Price: $368000
-Hash ID: 1323824773 - Address: 406 JURONG WEST ST 42 - Type: 4 ROOM - Lease:  66 years 07 months -  Price: $368888
-Hash ID: 852687168 - Address: 430 JURONG WEST AVE 1 - Type: 4 ROOM - Lease:  67 years -  Price: $375000
-Hash ID: -212498304 - Address: 713 JURONG WEST ST 71 - Type: 4 ROOM - Lease:  72 years 10 months -  Price: $378000
-Hash ID: -1330303596 - Address: 259 BOON LAY DR - Type: 4 ROOM - Lease:  77 years 05 months -  Price: $380000
-Hash ID: 51567578 - Address: 450 JURONG WEST ST 42 - Type: 4 ROOM - Lease:  67 years 05 months -  Price: $380000
-Hash ID: 206620394 - Address: 722 JURONG WEST AVE 5 - Type: 4 ROOM - Lease:  72 years 11 months -  Price: $382000
-Hash ID: 655213856 - Address: 540 JURONG WEST AVE 1 - Type: 4 ROOM - Lease:  66 years 11 months -  Price: $388000
-Hash ID: -1637376164 - Address: 452 JURONG WEST ST 42 - Type: 4 ROOM - Lease:  67 years 01 month -  Price: $392000
-Hash ID: 729636818 - Address: 648D JURONG WEST ST 61 - Type: 4 ROOM - Lease:  83 years 03 months -  Price: $398000
-Hash ID: -2005712689 - Address: 988A JURONG WEST ST 93 - Type: 4 ROOM - Lease:  90 years 08 months -  Price: $400000
-Hash ID: 392962907 - Address: 674B JURONG WEST ST 65 - Type: 4 ROOM - Lease:  84 years 11 months -  Price: $410000
-Hash ID: 603616074 - Address: 330 TAH CHING RD - Type: 4 ROOM - Lease:  79 years 07 months -  Price: $413000
-Hash ID: -438563148 - Address: 655B JURONG WEST ST 61 - Type: 4 ROOM - Lease:  84 years 09 months -  Price: $415000
-Hash ID: 265776859 - Address: 682C JURONG WEST CTRL 1 - Type: 4 ROOM - Lease:  82 years 08 months -  Price: $418000
-Hash ID: -1195713174 - Address: 619 JURONG WEST ST 65 - Type: 4 ROOM - Lease:  82 years 11 months -  Price: $420000
-Hash ID: -411739723 - Address: 657A JURONG WEST ST 65 - Type: 4 ROOM - Lease:  84 years 03 months -  Price: $422000
-Hash ID: -743497582 - Address: 257 BOON LAY DR - Type: 4 ROOM - Lease:  77 years 05 months -  Price: $423000
-Hash ID: 883093690 - Address: 640 JURONG WEST ST 61 - Type: 4 ROOM - Lease:  80 years 06 months -  Price: $428000
-Hash ID: -438563148 - Address: 655B JURONG WEST ST 61 - Type: 4 ROOM - Lease:  84 years 09 months -  Price: $428000
-Hash ID: 1026083864 - Address: 664A JURONG WEST ST 64 - Type: 4 ROOM - Lease:  82 years 06 months -  Price: $429000
+Index                 Address        Type                   Lease       Price
+    1   844 JURONG WEST ST 81      4 ROOM      78 years 03 months     $346500
+    2         268 TOH GUAN RD      4 ROOM       81 years 01 month     $507000
+    3         176 BOON LAY DR      3 ROOM      60 years 06 months     $251000
+    4   312 JURONG EAST ST 32      4 ROOM      66 years 07 months     $450000
+    5   517 JURONG WEST ST 52      3 ROOM      65 years 06 months     $290000
+    6   253 JURONG EAST ST 24      3 ROOM      67 years 05 months     $308888
+    7         174 BOON LAY DR      3 ROOM      60 years 06 months     $245000
+    8   936 JURONG WEST ST 91      4 ROOM      71 years 03 months     $345000
+    9 682C JURONG WEST CTRL 1      4 ROOM      82 years 08 months     $418000
+   10        37 TEBAN GDNS RD      3 ROOM      48 years 09 months     $250000
+   11   524 JURONG WEST ST 52      3 ROOM      64 years 03 months     $355000
+   12  276A JURONG WEST ST 25      4 ROOM       84 years 01 month     $340000
+   13   430 JURONG WEST AVE 1      4 ROOM                67 years     $375000
+   14         283 TOH GUAN RD      4 ROOM      80 years 10 months     $398000
+   15   720 JURONG WEST AVE 5      4 ROOM      71 years 11 months     $348000
+   16   112 JURONG EAST ST 13      4 ROOM      63 years 05 months     $395000
+   17        45 TEBAN GDNS RD   EXECUTIVE      68 years 06 months     $500000
+   18   640 JURONG WEST ST 61      4 ROOM      80 years 06 months     $428000
+   19         265 TOH GUAN RD      4 ROOM      80 years 09 months     $470000
+   20   545 JURONG WEST ST 42      4 ROOM      67 years 02 months     $360000
+   21   915 JURONG WEST ST 91      3 ROOM      70 years 07 months     $280000
+   22   756 JURONG WEST ST 74      4 ROOM      78 years 08 months     $368000
+   23   908 JURONG WEST ST 91      3 ROOM      71 years 04 months     $275000
+   24   111 JURONG EAST ST 13      5 ROOM      63 years 08 months     $525000
+   25         259 BOON LAY DR      4 ROOM      77 years 05 months     $380000
+   26   101 JURONG EAST ST 13      3 ROOM      65 years 02 months     $330000
+   27        62 TEBAN GDNS RD      4 ROOM      85 years 06 months     $362000
+   28  990A JURONG WEST ST 93      2 ROOM      90 years 07 months     $240000
+   29       178 YUNG SHENG RD      4 ROOM      83 years 04 months     $330000
+   30   848 JURONG WEST ST 81      4 ROOM      78 years 02 months     $350000
+   31   421 JURONG WEST ST 42      3 ROOM      67 years 05 months     $269000
+   32        185 BOON LAY AVE      3 ROOM      57 years 09 months     $240000
+   33   311 JURONG EAST ST 32      4 ROOM      66 years 04 months     $390000
+   34   339 JURONG EAST AVE 1      3 ROOM      65 years 05 months     $336000
+   35   540 JURONG WEST AVE 1      4 ROOM      66 years 11 months     $388000
+   36   329 JURONG EAST AVE 1      4 ROOM      65 years 05 months     $426000
+   37  648D JURONG WEST ST 61      4 ROOM      83 years 03 months     $398000
+   38         120 HO CHING RD      3 ROOM                54 years     $265000
+   39   914 JURONG WEST ST 91      3 ROOM      70 years 06 months     $268000
+   40        330 TAH CHING RD      4 ROOM      79 years 07 months     $413000
+   41  664A JURONG WEST ST 64      4 ROOM      82 years 06 months     $429000
+   42   943 JURONG WEST ST 91      4 ROOM      71 years 05 months     $350000
+   43  674B JURONG WEST ST 65      4 ROOM      84 years 11 months     $410000
+   44       179 YUNG SHENG RD      4 ROOM      83 years 03 months     $365000
+   45   310 JURONG EAST ST 32      4 ROOM       67 years 01 month     $420000
+   46   722 JURONG WEST AVE 5      4 ROOM      72 years 11 months     $382000
+   47   452 JURONG WEST ST 42      4 ROOM       67 years 01 month     $392000
+   48  988A JURONG WEST ST 93      4 ROOM      90 years 08 months     $400000
+   49   264 JURONG EAST ST 24      3 ROOM      65 years 03 months     $290000
+   50         257 BOON LAY DR      4 ROOM      77 years 05 months     $423000
+   51  990B JURONG WEST ST 93      2 ROOM      90 years 07 months     $258000
+   52  657A JURONG WEST ST 65      4 ROOM      84 years 03 months     $422000
+   53   747 JURONG WEST ST 73      4 ROOM                76 years     $362000
+   54   450 JURONG WEST ST 42      4 ROOM      67 years 05 months     $380000
+   55   307 JURONG EAST ST 32      5 ROOM      66 years 10 months     $450000
+   56   115 JURONG EAST ST 13      3 ROOM      63 years 04 months     $313000
+   57   926 JURONG WEST ST 92      3 ROOM                71 years     $275000
+   58   813 JURONG WEST ST 81      4 ROOM      72 years 02 months     $310000
+   59   250 JURONG EAST ST 24      3 ROOM      68 years 05 months     $260000
+   60   514 JURONG WEST ST 52      3 ROOM      66 years 04 months     $320000
+   61   619 JURONG WEST ST 65      4 ROOM      82 years 11 months     $420000
+   62  273B JURONG WEST AVE 3      4 ROOM      83 years 11 months     $345000
+   63   530 JURONG WEST ST 52      3 ROOM      65 years 07 months     $305000
+   64         272 TOH GUAN RD      4 ROOM      81 years 03 months     $490000
+   65  288E JURONG EAST ST 21      4 ROOM      82 years 02 months     $520000
+   66   713 JURONG WEST ST 71      4 ROOM      72 years 10 months     $378000
+   67   733 JURONG WEST ST 73      4 ROOM      77 years 05 months     $340000
+   68         211 BOON LAY PL      3 ROOM      58 years 10 months     $279000
+   69   231 JURONG EAST ST 21      3 ROOM      63 years 05 months     $265000
+   70   406 JURONG WEST ST 42      4 ROOM      66 years 07 months     $368888
+   71         410 PANDAN GDNS      3 ROOM      61 years 04 months     $270000
+   72   211 JURONG EAST ST 21      3 ROOM      65 years 03 months     $330000
+   73   730 JURONG WEST ST 72      4 ROOM      72 years 10 months     $343000
+   74   750 JURONG WEST ST 73      4 ROOM                76 years     $350000
+   75  655B JURONG WEST ST 61      4 ROOM      84 years 09 months     $428000
+   76         411 PANDAN GDNS      3 ROOM      61 years 04 months     $295000
+   77          153 YUNG HO RD      4 ROOM      72 years 07 months     $352000
+   78         119 HO CHING RD      3 ROOM                54 years     $240000
+   79   833 JURONG WEST ST 81      4 ROOM      75 years 05 months     $355000
+   80        22 TEBAN GDNS RD      4 ROOM      95 years 08 months     $475000
+   81         405 PANDAN GDNS      5 ROOM      61 years 09 months     $518888
+   82   314 JURONG EAST ST 32      5 ROOM      66 years 06 months     $538000
+   83   518 JURONG WEST ST 52      3 ROOM      66 years 10 months     $310000
+   84   511 JURONG WEST ST 52      3 ROOM      66 years 02 months     $315000
+   85   330 JURONG EAST AVE 1      3 ROOM      65 years 06 months     $290000
+   86   950 JURONG WEST ST 91      4 ROOM      71 years 04 months     $360000
+   87   207 JURONG EAST ST 21      3 ROOM      65 years 03 months     $302000
+   88   227 JURONG EAST ST 21      5 ROOM      66 years 05 months     $625000
+   89        113 TAO CHING RD      3 ROOM      53 years 05 months     $245000
+   90   854 JURONG WEST ST 81      4 ROOM      78 years 08 months     $355000
+   91   247 JURONG EAST ST 24      3 ROOM      65 years 05 months     $257500
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 HDBuy Bye Bye!

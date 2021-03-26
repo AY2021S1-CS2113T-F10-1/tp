@@ -1,8 +1,8 @@
 package seedu.hdbuy.api;
 
-import seedu.hdbuy.data.Unit;
-import seedu.hdbuy.data.exception.EmptyResponseException;
-import seedu.hdbuy.data.exception.GatewayException;
+import seedu.hdbuy.common.Unit;
+import seedu.hdbuy.common.exception.EmptyResponseException;
+import seedu.hdbuy.common.exception.GatewayException;
 
 import java.io.BufferedReader;
 import java.io.IOException;

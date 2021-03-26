@@ -1,4 +1,4 @@
-package seedu.hdbuy.data.exception;
+package seedu.hdbuy.common.exception;
 
 public class InvalidParameterException extends Exception {
     public InvalidParameterException() {

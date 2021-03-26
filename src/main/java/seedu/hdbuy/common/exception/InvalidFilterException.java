@@ -1,4 +1,4 @@
-package seedu.hdbuy.data.exception;
+package seedu.hdbuy.common.exception;
 
 public class InvalidFilterException extends Exception {
     public InvalidFilterException() {

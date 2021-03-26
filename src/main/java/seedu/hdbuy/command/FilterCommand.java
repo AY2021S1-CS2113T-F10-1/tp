@@ -1,8 +1,8 @@
 package seedu.hdbuy.command;
 
-import seedu.hdbuy.data.QueryKey;
-import seedu.hdbuy.data.Unit;
-import seedu.hdbuy.data.exception.InvalidFilterException;
+import seedu.hdbuy.common.QueryKey;
+import seedu.hdbuy.common.exception.InvalidFilterException;
+import seedu.hdbuy.data.UserInput;
 import seedu.hdbuy.ui.TextUi;
 
 import java.util.HashMap;
@@ -17,8 +17,9 @@ public class FilterCommand extends Command {
         this.value = value;
     }
 
-    @Override public void execute(HashMap<QueryKey, String> inputs) {
+    @Override public void execute(UserInput userInput) {
         try {
+            HashMap<QueryKey, String> inputs = userInput.getInputs();
             switch (criteria) {
             case "location":
                 inputs.put(QueryKey.LOCATION, value);

@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+FindCommand -> ApiRepository: fetchUnits(inputs)
+activate ApiRepository
+ApiRepository -> QueryFormatter: formQuery(inputs)
+activate QueryFormatter
+ApiRepository <-- QueryFormatter:
+deactivate QueryFormatter
+ApiRepository -> GetRequest: getResponse(query)
+activate GetRequest
+GetRequest -> ResponseDecoder: decodeResponse(inputStream)
+activate ResponseDecoder
+ResponseDecoder -> UnitsGenerator: getUnits(response)
+activate UnitsGenerator
+loop unitContents
+    UnitsGenerator -> UnitsGenerator: getUnit(details)
+end
+ResponseDecoder <-- UnitsGenerator:
+deactivate UnitsGenerator
+GetRequest <-- ResponseDecoder:
+deactivate ResponseDecoder
+ApiRepository <-- GetRequest:
+deactivate GetRequest
+FindCommand <-- ApiRepository:
+deactivate ApiRepository
+@enduml

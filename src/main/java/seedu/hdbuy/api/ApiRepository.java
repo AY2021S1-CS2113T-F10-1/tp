@@ -1,8 +1,8 @@
 package seedu.hdbuy.api;
 
-import seedu.hdbuy.data.QueryKey;
-import seedu.hdbuy.data.Unit;
-import seedu.hdbuy.data.exception.EmptyResponseException;
+import seedu.hdbuy.common.QueryKey;
+import seedu.hdbuy.common.Unit;
+import seedu.hdbuy.common.exception.EmptyResponseException;
 
 import java.util.HashMap;
 import java.util.logging.Logger;

@@ -1,8 +1,8 @@
 package seedu.hdbuy.api;
 
-import seedu.hdbuy.data.Unit;
-import seedu.hdbuy.data.exception.EmptyResponseException;
-import seedu.hdbuy.data.exception.GatewayException;
+import seedu.hdbuy.common.Unit;
+import seedu.hdbuy.common.exception.EmptyResponseException;
+import seedu.hdbuy.common.exception.GatewayException;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 public class GetRequest {
 
     private static final String URL =
-            "https://data.gov.sg/api/action/datastore_search" + "?resource_id=42ff9cfe-abe5-4b54-beda-c88f9bb438ee&q=";
+            "https://data.gov.sg/api/action/datastore_search?resource_id=42ff9cfe-abe5-4b54-beda-c88f9bb438ee&q=";
     private static final String REQUEST_PROPERTY =
             "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko)"
                     + " Chrome/23.0.1271.95 Safari/537.11";
