@@ -1,8 +1,9 @@
 package seedu.hdbuy.command;
 
-import seedu.hdbuy.data.QueryKey;
-import seedu.hdbuy.data.exception.InvalidSortException;
+import seedu.hdbuy.common.QueryKey;
+import seedu.hdbuy.common.exception.InvalidSortException;
 import seedu.hdbuy.ui.TextUi;
+import seedu.hdbuy.data.UserInput;
 import seedu.hdbuy.api.UnitsGenerator;
 
 import java.util.Collections;

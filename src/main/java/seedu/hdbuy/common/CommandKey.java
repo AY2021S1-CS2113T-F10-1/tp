@@ -15,7 +15,7 @@ public class CommandKey {
     public CommandKey(String criteria, String command) {
         this.criteria = criteria;
         this.command = command;
-        value = null;
+        this.value = null;
     }
     
     public CommandKey(String command) {
