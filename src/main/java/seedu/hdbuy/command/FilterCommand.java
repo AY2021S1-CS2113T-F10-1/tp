@@ -1,11 +1,11 @@
 package seedu.hdbuy.command;
 
+import java.util.LinkedHashMap;
+
 import seedu.hdbuy.common.QueryKey;
 import seedu.hdbuy.common.exception.InvalidFilterException;
 import seedu.hdbuy.data.UserInput;
 import seedu.hdbuy.ui.TextUi;
-
-import java.util.HashMap;
 
 public class FilterCommand extends Command {
 
@@ -19,7 +19,7 @@ public class FilterCommand extends Command {
 
     @Override public void execute(UserInput userInput) {
         try {
-            HashMap<QueryKey, String> inputs = userInput.getInputs();
+            LinkedHashMap<QueryKey, String> inputs = userInput.getInputs();
             switch (criteria) {
             case "location":
                 inputs.put(QueryKey.LOCATION, value);

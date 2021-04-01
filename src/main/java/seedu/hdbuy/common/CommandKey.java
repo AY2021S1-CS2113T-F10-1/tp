@@ -24,6 +24,12 @@ public class CommandKey {
         this.criteria = "";
     }
 
+    public CommandKey(String command, String value) {
+        this.command = command;
+        this.value = value;
+        this.criteria = "";
+    }
+
     public String getCriteria() {
         return criteria;
     }

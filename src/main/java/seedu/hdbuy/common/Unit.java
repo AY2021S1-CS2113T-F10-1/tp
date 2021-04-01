@@ -48,6 +48,11 @@ public class Unit {
         return lease;
     }
 
+    public String encodeToText() {
+        return String.format("%d:%s:%s:%d:%s:%d:%s", getId(), getAddress(), getType(), getLeaseValue(),
+                getLease(), getPrice(), getLocation());
+    }
+
     @Override public String toString() {
         return "Hash ID: " + getId() + " - Address: " + getAddress() + " - Type: " + getType() + " - Lease: "
                 + getLease() + " -  Price: $" + getPrice();

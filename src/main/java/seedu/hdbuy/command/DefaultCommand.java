@@ -1,10 +1,6 @@
 package seedu.hdbuy.command;
 
-import seedu.hdbuy.common.QueryKey;
 import seedu.hdbuy.data.UserInput;
-import seedu.hdbuy.ui.TextUi;
-
-import java.util.HashMap;
 
 /**
  * This command is used when the user inputs an invalid command.
@@ -19,6 +15,6 @@ public class DefaultCommand extends Command {
     }
 
     @Override public void execute(UserInput userInput) {
-        TextUi.showInvalidInput(input);
+        // TextUi.showInvalidInput(input);
     }
 }

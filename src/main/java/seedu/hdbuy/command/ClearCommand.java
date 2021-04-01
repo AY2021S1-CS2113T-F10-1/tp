@@ -1,8 +1,5 @@
 package seedu.hdbuy.command;
 
-import java.util.HashMap;
-
-import seedu.hdbuy.common.QueryKey;
 import seedu.hdbuy.data.UserInput;
 import seedu.hdbuy.ui.TextUi;
 

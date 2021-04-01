@@ -1,19 +1,18 @@
 package seedu.hdbuy.data;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 import seedu.hdbuy.common.QueryKey;
 
 public class UserInput {
 
-    private final HashMap<QueryKey, String> inputs;
-
+    private final LinkedHashMap<QueryKey, String> inputs;
 
     public UserInput() {
-        this.inputs = new HashMap<>();
+        this.inputs = new LinkedHashMap<>();
     }
 
-    public HashMap<QueryKey, String> getInputs() {
+    public LinkedHashMap<QueryKey, String> getInputs() {
         return inputs;
     }
 

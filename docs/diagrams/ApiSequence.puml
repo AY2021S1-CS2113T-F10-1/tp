@@ -1,11 +1,31 @@
 @startuml
 'https://plantuml.com/sequence-diagram
 
-FindCommand -> ApiRepository: fetchUnits(inputs)
+[-> ApiRepository: fetchUnits(inputs)
 activate ApiRepository
 ApiRepository -> QueryFormatter: formQuery(inputs)
 activate QueryFormatter
-ApiRepository <-- QueryFormatter:
+loop parameters
+    opt query has whitespace
+    QueryFormatter -> QueryFormatter: remove whitespaces
+    activate QueryFormatter
+    deactivate QueryFormatter
+    end
+    alt TYPE query
+    QueryFormatter -> QueryFormatter: append TYPE format
+    activate QueryFormatter
+    deactivate QueryFormatter
+    else LOCATION query
+    QueryFormatter -> QueryFormatter: append LOCATION format
+    activate QueryFormatter
+    deactivate QueryFormatter
+    else LEASE_REMAINING query
+    QueryFormatter -> QueryFormatter: append LEASE_REMAINING format
+    activate QueryFormatter
+    deactivate QueryFormatter
+    end
+end
+ApiRepository <-- QueryFormatter: formatted query
 deactivate QueryFormatter
 ApiRepository -> GetRequest: getResponse(query)
 activate GetRequest
@@ -15,13 +35,14 @@ ResponseDecoder -> UnitsGenerator: getUnits(response)
 activate UnitsGenerator
 loop unitContents
     UnitsGenerator -> UnitsGenerator: getUnit(details)
+    activate UnitsGenerator
+    UnitsGenerator -> SearchedUnits: addToResult(unit)
+    activate SearchedUnits
+    deactivate SearchedUnits
+    deactivate UnitsGenerator
 end
-ResponseDecoder <-- UnitsGenerator:
 deactivate UnitsGenerator
-GetRequest <-- ResponseDecoder:
 deactivate ResponseDecoder
-ApiRepository <-- GetRequest:
 deactivate GetRequest
-FindCommand <-- ApiRepository:
 deactivate ApiRepository
 @enduml

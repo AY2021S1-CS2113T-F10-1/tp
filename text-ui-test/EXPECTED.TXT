@@ -3,104 +3,41 @@ Welcome to HDBuy!
 How may I help you today?
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-Parameters:
+Filter conditions:
 {LOCATION=jurong}
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-Parameters:
+Filter conditions:
 {LOCATION=jurong}
-Index                 Address        Type                   Lease       Price
-    1   844 JURONG WEST ST 81      4 ROOM      78 years 03 months     $346500
-    2         268 TOH GUAN RD      4 ROOM       81 years 01 month     $507000
-    3         176 BOON LAY DR      3 ROOM      60 years 06 months     $251000
-    4   312 JURONG EAST ST 32      4 ROOM      66 years 07 months     $450000
-    5   517 JURONG WEST ST 52      3 ROOM      65 years 06 months     $290000
-    6   253 JURONG EAST ST 24      3 ROOM      67 years 05 months     $308888
-    7         174 BOON LAY DR      3 ROOM      60 years 06 months     $245000
-    8   936 JURONG WEST ST 91      4 ROOM      71 years 03 months     $345000
-    9 682C JURONG WEST CTRL 1      4 ROOM      82 years 08 months     $418000
-   10        37 TEBAN GDNS RD      3 ROOM      48 years 09 months     $250000
-   11   524 JURONG WEST ST 52      3 ROOM      64 years 03 months     $355000
-   12  276A JURONG WEST ST 25      4 ROOM       84 years 01 month     $340000
-   13   430 JURONG WEST AVE 1      4 ROOM                67 years     $375000
-   14         283 TOH GUAN RD      4 ROOM      80 years 10 months     $398000
-   15   720 JURONG WEST AVE 5      4 ROOM      71 years 11 months     $348000
-   16   112 JURONG EAST ST 13      4 ROOM      63 years 05 months     $395000
-   17        45 TEBAN GDNS RD   EXECUTIVE      68 years 06 months     $500000
-   18   640 JURONG WEST ST 61      4 ROOM      80 years 06 months     $428000
-   19         265 TOH GUAN RD      4 ROOM      80 years 09 months     $470000
-   20   545 JURONG WEST ST 42      4 ROOM      67 years 02 months     $360000
-   21   915 JURONG WEST ST 91      3 ROOM      70 years 07 months     $280000
-   22   756 JURONG WEST ST 74      4 ROOM      78 years 08 months     $368000
-   23   908 JURONG WEST ST 91      3 ROOM      71 years 04 months     $275000
-   24   111 JURONG EAST ST 13      5 ROOM      63 years 08 months     $525000
-   25         259 BOON LAY DR      4 ROOM      77 years 05 months     $380000
-   26   101 JURONG EAST ST 13      3 ROOM      65 years 02 months     $330000
-   27        62 TEBAN GDNS RD      4 ROOM      85 years 06 months     $362000
-   28  990A JURONG WEST ST 93      2 ROOM      90 years 07 months     $240000
-   29       178 YUNG SHENG RD      4 ROOM      83 years 04 months     $330000
-   30   848 JURONG WEST ST 81      4 ROOM      78 years 02 months     $350000
-   31   421 JURONG WEST ST 42      3 ROOM      67 years 05 months     $269000
-   32        185 BOON LAY AVE      3 ROOM      57 years 09 months     $240000
-   33   311 JURONG EAST ST 32      4 ROOM      66 years 04 months     $390000
-   34   339 JURONG EAST AVE 1      3 ROOM      65 years 05 months     $336000
-   35   540 JURONG WEST AVE 1      4 ROOM      66 years 11 months     $388000
-   36   329 JURONG EAST AVE 1      4 ROOM      65 years 05 months     $426000
-   37  648D JURONG WEST ST 61      4 ROOM      83 years 03 months     $398000
-   38         120 HO CHING RD      3 ROOM                54 years     $265000
-   39   914 JURONG WEST ST 91      3 ROOM      70 years 06 months     $268000
-   40        330 TAH CHING RD      4 ROOM      79 years 07 months     $413000
-   41  664A JURONG WEST ST 64      4 ROOM      82 years 06 months     $429000
-   42   943 JURONG WEST ST 91      4 ROOM      71 years 05 months     $350000
-   43  674B JURONG WEST ST 65      4 ROOM      84 years 11 months     $410000
-   44       179 YUNG SHENG RD      4 ROOM      83 years 03 months     $365000
-   45   310 JURONG EAST ST 32      4 ROOM       67 years 01 month     $420000
-   46   722 JURONG WEST AVE 5      4 ROOM      72 years 11 months     $382000
-   47   452 JURONG WEST ST 42      4 ROOM       67 years 01 month     $392000
-   48  988A JURONG WEST ST 93      4 ROOM      90 years 08 months     $400000
-   49   264 JURONG EAST ST 24      3 ROOM      65 years 03 months     $290000
-   50         257 BOON LAY DR      4 ROOM      77 years 05 months     $423000
-   51  990B JURONG WEST ST 93      2 ROOM      90 years 07 months     $258000
-   52  657A JURONG WEST ST 65      4 ROOM      84 years 03 months     $422000
-   53   747 JURONG WEST ST 73      4 ROOM                76 years     $362000
-   54   450 JURONG WEST ST 42      4 ROOM      67 years 05 months     $380000
-   55   307 JURONG EAST ST 32      5 ROOM      66 years 10 months     $450000
-   56   115 JURONG EAST ST 13      3 ROOM      63 years 04 months     $313000
-   57   926 JURONG WEST ST 92      3 ROOM                71 years     $275000
-   58   813 JURONG WEST ST 81      4 ROOM      72 years 02 months     $310000
-   59   250 JURONG EAST ST 24      3 ROOM      68 years 05 months     $260000
-   60   514 JURONG WEST ST 52      3 ROOM      66 years 04 months     $320000
-   61   619 JURONG WEST ST 65      4 ROOM      82 years 11 months     $420000
-   62  273B JURONG WEST AVE 3      4 ROOM      83 years 11 months     $345000
-   63   530 JURONG WEST ST 52      3 ROOM      65 years 07 months     $305000
-   64         272 TOH GUAN RD      4 ROOM      81 years 03 months     $490000
-   65  288E JURONG EAST ST 21      4 ROOM      82 years 02 months     $520000
-   66   713 JURONG WEST ST 71      4 ROOM      72 years 10 months     $378000
-   67   733 JURONG WEST ST 73      4 ROOM      77 years 05 months     $340000
-   68         211 BOON LAY PL      3 ROOM      58 years 10 months     $279000
-   69   231 JURONG EAST ST 21      3 ROOM      63 years 05 months     $265000
-   70   406 JURONG WEST ST 42      4 ROOM      66 years 07 months     $368888
-   71         410 PANDAN GDNS      3 ROOM      61 years 04 months     $270000
-   72   211 JURONG EAST ST 21      3 ROOM      65 years 03 months     $330000
-   73   730 JURONG WEST ST 72      4 ROOM      72 years 10 months     $343000
-   74   750 JURONG WEST ST 73      4 ROOM                76 years     $350000
-   75  655B JURONG WEST ST 61      4 ROOM      84 years 09 months     $428000
-   76         411 PANDAN GDNS      3 ROOM      61 years 04 months     $295000
-   77          153 YUNG HO RD      4 ROOM      72 years 07 months     $352000
-   78         119 HO CHING RD      3 ROOM                54 years     $240000
-   79   833 JURONG WEST ST 81      4 ROOM      75 years 05 months     $355000
-   80        22 TEBAN GDNS RD      4 ROOM      95 years 08 months     $475000
-   81         405 PANDAN GDNS      5 ROOM      61 years 09 months     $518888
-   82   314 JURONG EAST ST 32      5 ROOM      66 years 06 months     $538000
-   83   518 JURONG WEST ST 52      3 ROOM      66 years 10 months     $310000
-   84   511 JURONG WEST ST 52      3 ROOM      66 years 02 months     $315000
-   85   330 JURONG EAST AVE 1      3 ROOM      65 years 06 months     $290000
-   86   950 JURONG WEST ST 91      4 ROOM      71 years 04 months     $360000
-   87   207 JURONG EAST ST 21      3 ROOM      65 years 03 months     $302000
-   88   227 JURONG EAST ST 21      5 ROOM      66 years 05 months     $625000
-   89        113 TAO CHING RD      3 ROOM      53 years 05 months     $245000
-   90   854 JURONG WEST ST 81      4 ROOM      78 years 08 months     $355000
-   91   247 JURONG EAST ST 24      3 ROOM      65 years 05 months     $257500
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Cleared filter conditions.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Filter conditions:
+{LOCATION=ang mo kio}
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Filter conditions:
+{LOCATION=ang mo kio, TYPE=3 room}
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Filter conditions:
+{LOCATION=ang mo kio, TYPE=3 room}
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Filter conditions:
+{LOCATION=ang mo kio, TYPE=4 room}
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Filter conditions:
+{LOCATION=ang mo kio, TYPE=4 room}
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Cleared filter conditions.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Currently there are no filter conditions set.
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 HDBuy Bye Bye!

@@ -1,14 +1,12 @@
 package seedu.hdbuy.api;
 
-import seedu.hdbuy.common.Unit;
-import seedu.hdbuy.common.exception.EmptyResponseException;
-import seedu.hdbuy.common.exception.GatewayException;
-
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.HashMap;
 import java.util.logging.Logger;
+
+import seedu.hdbuy.common.exception.EmptyResponseException;
+import seedu.hdbuy.common.exception.GatewayException;
 
 public class GetRequest {
 
@@ -24,10 +22,9 @@ public class GetRequest {
      * Connects to database and sends a GET request to get units matching query.
      *
      * @param query Combination of user's filter criteria.
-     * @return Units decoded from response body.
      * @throws EmptyResponseException When there are no units matching user's filter criteria.
      */
-    public static HashMap<Integer, Unit> getResponse(String query) throws EmptyResponseException {
+    public static void getResponse(String query) throws EmptyResponseException {
         try {
             URL url = new URL(URL + query);
             Logger.getLogger("GetRequest").info(url.toString());
@@ -35,12 +32,10 @@ public class GetRequest {
             connection.setRequestProperty(REQUEST_PROPERTY_HEADER, REQUEST_PROPERTY);
             connection.setRequestMethod(REQUEST_METHOD);
             connection.connect();
-            HashMap<Integer, Unit> units = ResponseDecoder.decodeResponse(connection.getInputStream());
+            ResponseDecoder.decodeResponse(connection.getInputStream());
             connection.disconnect();
-            return units;
         } catch (GatewayException | IOException exception) {
             Logger.getLogger("GetRequest").warning(exception.getMessage());
-            return new HashMap<>();
         }
     }
 }

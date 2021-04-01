@@ -1,3 +1,11 @@
 filter location jurong
-find
+list
+clear
+filter location ang mo kio
+filter type 3 room
+list
+filter type 4 room
+list
+clear
+list
 exit

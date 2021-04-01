@@ -1,90 +1,79 @@
 package seedu.hdbuy.parser;
 
+import org.junit.Assert;
+
+import java.util.logging.Logger;
+
+import seedu.hdbuy.command.ClearCommand;
 import seedu.hdbuy.command.CloseCommand;
 import seedu.hdbuy.command.Command;
 import seedu.hdbuy.command.DefaultCommand;
 import seedu.hdbuy.command.FilterCommand;
 import seedu.hdbuy.command.FindCommand;
 import seedu.hdbuy.command.HelpCommand;
+import seedu.hdbuy.command.ListCommand;
+import seedu.hdbuy.command.RemoveCommand;
+import seedu.hdbuy.command.SaveCommand;
+import seedu.hdbuy.command.ShortlistCommand;
 import seedu.hdbuy.command.SortCommand;
-import seedu.hdbuy.data.CommandKey;
-import seedu.hdbuy.data.exception.InvalidParameterException;
+import seedu.hdbuy.common.CommandKey;
+import seedu.hdbuy.common.exception.InvalidParameterException;
 import seedu.hdbuy.ui.TextUi;
 
-import java.util.Arrays;
-
 public class Parser {
-    private static final String HELP = "help";
-    private static final String FILTER = "filter";
-    private static final String FIND = "find";
-    private static final String EXIT = "exit";
-    private static final String SORT = "sort";
 
     public static Command parse(String fullLine) {
         Command command = new DefaultCommand(fullLine);
+        Assert.assertNotNull(command);
         try {
-            CommandKey keyCommand = extractInfo(fullLine);
+            CommandKey keyCommand = CommandEvaluator.extractInfo(fullLine);
             switch (keyCommand.getCommand()) {
-            case HELP:
+            case CommandType.HELP:
                 command = new HelpCommand();
                 break;
-            case FILTER:
+            case CommandType.FILTER:
                 String criteria = keyCommand.getCriteria();
                 String value = keyCommand.getValue();
                 command = new FilterCommand(criteria, value);
                 break;
-            case SORT:
-                String sortCriteria = keyCommand.getCriteria();
-                command = new SortCommand(sortCriteria);
-                break;
-            case FIND:
+            case CommandType.FIND:
                 command = new FindCommand();
                 break;
-            case EXIT:
+            case CommandType.EXIT:
                 command = new CloseCommand();
                 break;
+            case CommandType.CLEAR:
+                command = new ClearCommand();
+                break;
+            case CommandType.LIST:
+                command = new ListCommand();
+                break;
+            case CommandType.SHORTLIST:
+                command = new ShortlistCommand();
+                break;
+            case CommandType.SAVE:
+                int addIndex = Integer.parseInt(keyCommand.getValue());
+                command = new SaveCommand(addIndex);
+                break;
+            case CommandType.REMOVE:
+                int removeIndex = Integer.parseInt(keyCommand.getValue());
+                command = new RemoveCommand(removeIndex);
+                break;
+            case CommandType.SORT:
+                String sortCriteria = keyCommand.getValue();
+                command = new SortCommand(sortCriteria);
+                break;
             default:
+                TextUi.showInvalidInput(keyCommand.getCommand());
                 break;
             }
         } catch (InvalidParameterException e) {
-            TextUi.showInvalidParameter(e);
-        } finally {
-            return command;
+            Logger.getLogger("Parser").severe(e.getMessage());
+            TextUi.showInvalidParameter(e.getKeyCommand(), e);
+        } catch (NumberFormatException e) {
+            Logger.getLogger("Parser").severe(e.getMessage());
+            TextUi.showInvalidIndex();
         }
-    }
-
-    public static CommandKey extractInfo(String fullLine) throws InvalidParameterException {
-        String[] lineParts;
-        lineParts = fullLine.split(" ");
-        String keyCommand = lineParts[0];
-        switch (keyCommand) {
-        case FILTER:
-            if (lineParts.length < 3) {
-                throw new InvalidParameterException();
-            } else {
-                String criteria = lineParts[1];
-                String value = String.join(" ", Arrays.asList(lineParts).subList(2, lineParts.length));
-                return new CommandKey(criteria, value, keyCommand);
-            }
-        case SORT:
-            if (lineParts.length < 2) {
-                throw new InvalidParameterException();
-            } else {
-                String criteria = lineParts[1];
-                return new CommandKey(criteria, keyCommand);
-            }
-        case FIND:
-            if (lineParts.length != 1) {
-                throw new InvalidParameterException();
-            }
-            break;
-        case EXIT:
-            // Fallthrough
-        case HELP:
-            // Fallthrough
-        default:
-            break;
-        }
-        return new CommandKey(keyCommand);
+        return command;
     }
 }

@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+[-> ShortList: getShortListedUnits(inputs)
+activate ShortList
+opt shortlist not initiated
+    ShortList -> StorageManager: read()
+    activate StorageManager
+    loop text input lines in text file
+        StorageManager -> UnitDecoder: textToUnit(input)
+        activate UnitDecoder
+        StorageManager <-- UnitDecoder: unit
+        deactivate UnitDecoder
+        opt unit is not null
+            StorageManager -> ShortList: addToShortList(unit)
+        end
+    end
+    deactivate StorageManager
+end
+[<-- ShortList: units
+deactivate ShortList
+@enduml
