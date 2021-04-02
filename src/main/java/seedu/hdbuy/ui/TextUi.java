@@ -177,8 +177,8 @@ public class TextUi {
         System.out.println("\"" + key + "\"" + e.getMessage());
         switch (key) {
         case "FIND":
-            System.out.println("Please specified a filter to use before executing this command.");
-            System.out.println("Filters included: " + Arrays.asList(QueryKey.values()));
+            System.out.println("Please specify a filter to use before executing this command.");
+            System.out.println("Filters available: " + Arrays.asList(QueryKey.values()));
             System.out.println("An example will be \"filter location clementi\"");
             break;
         case "CLEAR":

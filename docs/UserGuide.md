@@ -56,7 +56,7 @@ HdBuy allows you to easily find and bookmark resale flats available matching you
 
 ### Add a Filter : `filter`
 
-Add a filter condition. 
+Add a filter condition. Filter types: [LOCATION, TYPE, LEASE_REMAINING]
 
 Format: `filter ATTRIBUTE VALUE`
 
@@ -127,14 +127,16 @@ Example:
 
 ## Error Handling
 
-Listed in the table below are all possible errors.
+Listed in the table below are the possible errors, how they can occur and how to remedy it.
 
-|Exception|Description|
-|---------|-----------|
-|EmptyParameterException|There are no parameters for the app's `find` function to search on.|
-|InvalidFilterException|The filter type input by the user does not exist in the database.|
-|InvalidParameterException|The number of parameters input by the user is incorrect for the specific command.|
-
+|How can this error occur|Description|How to remedy|
+|----|---|---------|
+|Prerequisites: `filter` not set<br>`find`|"FIND" has no parameters currently.|`find` requires a valid filter to function.<br>Please specify a filter to use before executing this command.
+|`filter quality good`|"quality" is not a valid filter.|`filter` command only allows for predetermined attributes.<br>Please use these filters: [LOCATION, TYPE, LEASE_REMAINING].
+|`filter location`|You must enter the correct number of parameters.|`filter` command needs an attribute and a value to work.<br>Example: "filter location clementi".
+|`filter lease_remaining 100`<br>`find`|There are no flats to be shown.|`clear` the filters before setting a new valid one.
+|Prerequisites: Bad internet connection or server down.|Server seems to be down, or was it your Internet connection?|Troubleshoot internet connection. If it is the server issue, please report it to our email.
+|
 
 ## FAQ
 
